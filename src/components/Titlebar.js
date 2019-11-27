@@ -34,7 +34,7 @@ class TitleBar extends Component {
     return (
       <header className="l-app__titlebar titlebar">
         <span className="titlebar__path">
-          /home/eliseu/nodejs/file-explorer
+          {this.props.path}
         </span>
         <span className="titlebar__btn" onClick={this.minimize}>
           _
